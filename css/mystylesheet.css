@@ -5,21 +5,21 @@
 }
 
 header{
-    background-image: url(../Git_code/background_mig.jpg) ;
+    background-image: url(../images/background_mig.jpg) ;
     height:100%;
     background-size: cover;
     background-position: cover;
 }
 
 .header{
-    background-image: url(../Git_code/background_mig.jpg) ;
+    background-image: url(../images/background_mig.jpg) ;
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
 .project_body{
-    background-image: url(../Git_code/background_mig.jpg) ;
+    background-image: url(../images/background_mig.jpg) ;
     height: 100vh;
     background-size: cover;
     background-position: center;
