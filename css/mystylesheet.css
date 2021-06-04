@@ -1,15 +1,49 @@
 *{
-    /*margin: 0;
-    padding: 0;*/
+    margin: 0;
+    padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+h1,h3{
+    color: black;
+    align-items: center;
+}
+
+#img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+}
+figcaption {
+    display: inline;
+    margin-left: 40%;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
 
 .header{
+    background-image: url(../images/background_mig.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.header-skill{
     background-image: url(../images/background_mig.jpg) ;
     width:100vw;
     height:100vh;
     background-size: cover;
     background-position: center;
+}
+body{
+    background-image: url(../images/background_mig.jpg) ;
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    background-position: center; 
 }
 
 .section{
@@ -69,10 +103,15 @@ ul li.active a{
     color: black;
     font-size: 70px;
 }
+.head{
+    display: absolute;
+    margin-top: 100px;
+    text-align: center;
+}
 
 .metadata{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%,-40%);
     text-align: justify;
@@ -87,65 +126,164 @@ ul li.active a{
 }
 
 
-/* ----------------Skill----------------- */
-
-body{
-    height: 100vh;
-    width: 100vh;
-    background:white;
-    color: black;
-    font-family: 'Helvetica', Sans-Serif;
-    background-image: url(../images/background_mig.jpg) ;
-  }
-  
-  .skillset{
-      height:30px;
-    color:#0D0E0E;
-    width:0px;
-    text-align:center;
-      transition:0.4s linear;
-      transition-property:width;
-  }
-  .skillset{
-    width:75%;
-    border-radius:8px;
-    margin-bottom:2%;
-  
-  
-  }
-  .skillset{
-    border-radius: 12px;
-    padding: 2%;
-    width:100%;
-    text-align: center;
-  }
-  .skillset ul {
-    list-style-type: none;
-    display:inline;
-    text-align: center;
-  }
-  a{
-   color:black;
-  }
-  footer{
-    text-align:center;
-  }
-  section .social{
-      width:100vw;
+/* ----------------Social Media----------------- */
+.social-div{
+    position: absolute;
     display: flex;
-    justify-content: center;
+    margin-top: 500px;
     align-items: center;
-    flex-direction:row;
+    margin-left: 45%;
 }
+
+
+
 img{
-    height: 25px;
-    width: 25px;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
 }
 
 h4{
-    margin:;
-    width:100vw;
-    display: flex;
+    position: absolute;
+    margin-top: 450px;
     align-items: center;
-    justify-content: center;
+    margin-left: 50%;
 }
+
+
+/* --------------------Skill-------------------- */
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.s-con{
+    margin-top: -35rem;
+    padding: 100px;
+}
+.con {
+    margin-bottom: 2rem;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+/* ------------Contact form------------ */
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 13px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: rgb(168, 73, 73);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid rgb(27, 73, 62); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 12px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+
+  input[type=tel]{
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid rgb(27, 73, 62); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 12px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  input[type=email]{
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid rgb(27, 73, 62); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 12px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #aa156c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .cancelbtn {
+    background-color: #aa156c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .cancelbtn:hover {
+    background-color: #0c0811;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #080211;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .cont {
+    border-radius: 5px;
+    color: rgb(8, 0, 0);
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 70px;
+  }
+  .cont h2{
+    color:black;
+    text-align: center;
+    margin-left: 25rem;
+    text-shadow: #3DCFD3;
+  }
