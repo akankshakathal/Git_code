@@ -4,28 +4,16 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-header{
-    background-image: url(../images/background_mig.jpg) ;
-    width:50%;
-    height:100%;
-    background-size: cover;
-    background-position: center;
-}
-
 .header{
     background-image: url(../images/background_mig.jpg) ;
-    height: 100vh;
     width:100vw;
+    height:100vh;
     background-size: cover;
     background-position: center;
 }
 
-.project_body{
-    background-image: url(../images/background_mig.jpg) ;
-    height: 100vh;
-    width:100vw;
-    background-size: cover;
-    background-position: center;
+.section{
+    padding: 2rem 0 4rem;
 }
 
 ul{
@@ -84,7 +72,7 @@ ul li.active a{
 
 .metadata{
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-40%);
     text-align: justify;
@@ -96,4 +84,68 @@ ul li.active a{
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+
+/* ----------------Skill----------------- */
+
+body{
+    height: 100vh;
+    width: 100vh;
+    background:white;
+    color: black;
+    font-family: 'Helvetica', Sans-Serif;
+    background-image: url(../images/background_mig.jpg) ;
+  }
+  
+  .skillset{
+      height:30px;
+    color:#0D0E0E;
+    width:0px;
+    text-align:center;
+      transition:0.4s linear;
+      transition-property:width;
+  }
+  .skillset{
+    width:75%;
+    border-radius:8px;
+    margin-bottom:2%;
+  
+  
+  }
+  .skillset{
+    border-radius: 12px;
+    padding: 2%;
+    width:100%;
+    text-align: center;
+  }
+  .skillset ul {
+    list-style-type: none;
+    display:inline;
+    text-align: center;
+  }
+  a{
+   color:black;
+  }
+  footer{
+    text-align:center;
+  }
+  section .social{
+      width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+img{
+    height: 25px;
+    width: 25px;
+}
+
+h4{
+    margin:;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
